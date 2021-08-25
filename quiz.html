@@ -10,9 +10,28 @@
 </head>
 
 <body>
-
     <h1>Traingle Quiz</h1>
+    <form class="quiz-form">
+        <div class="qst-container">
+            <p>What is the third angle for the traingle where angle1 = 45° and angle2 = 45°?
+            </p>
+            <label><input type="radio" name="question1" value="45°">45°</label>
+            <label><input type="radio" name="question1" value="60°">60°</label>
+            <label><input type="radio" name="question1" value="90°">90°</label>
+        </div>
 
+        <div class="qst-container">
+            <p>If a traingle has an angle of 90 degrees, what it is called?
+            </p>
+            <label><input type="radio" name="question2" value="acute">Acute angle traingle</label>
+            <label><input type="radio" name="question2" value="obtuse">Obtuse angle traingle</label>
+            <label><input type="radio" name="question2" value="right">Right angle traingle</label>
+        </div>
+
+    </form>
+    
+        <button id="sub-ans"> Submit Answers</button>
+        <div id="output"></div>
 
 
 
