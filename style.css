@@ -84,8 +84,9 @@ h2{
 }
 .container{
     width:90%;
-    /* text-align: center; */
+    text-align: center;
     margin: auto;
+    max-width: 600px;
 }
 .qst-container{
     padding: 2rem;
