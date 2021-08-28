@@ -10,8 +10,15 @@
 </head>
 
 <body>
-    <h1>Traingle Quiz</h1>
-    <form class="quiz-form">
+    <nav>
+        <a href="index.html">Is Traingle?</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="hypoteneous.html">Hypotenuse</a>
+        <a href="area.html">Area</a>
+    </nav>
+    <h1 class="heading">Traingle Quiz</h1>
+    <div>
+    <form class="quiz-form container">
         <div class="qst-container">
             <p>What is the third angle for the traingle where angle1 = 45° and angle2 = 45°?
             </p>
@@ -27,14 +34,10 @@
             <label><input type="radio" name="question2" value="obtuse">Obtuse angle traingle</label>
             <label><input type="radio" name="question2" value="right">Right angle traingle</label>
         </div>
-
+        
     </form>
-    
-        <button id="sub-ans"> Submit Answers</button>
-        <div id="output"></div>
-
-
-
+    <button class="btn container"id="sub-ans"> Submit Answers</button>
+    <h2 id="output"></h2>
     <script src="quizScript.js"></script>
 </body>
 
