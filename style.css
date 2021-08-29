@@ -96,7 +96,7 @@ h2{
     width:90%;
     text-align: center;
     margin: auto;
-    max-width: 600px;
+    max-width: 800px;
 }
 .qst-container{
     padding: 2rem;
@@ -111,3 +111,15 @@ h2{
 .button{
    align-content: center;
 }
+
+/* footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+margin-top: 1rem;
+    /* position: fixed ; */
+    /* bottom: 0px;
+    width: 100%;
+/* } 
+h4{
+    text-align: center;
+} */
