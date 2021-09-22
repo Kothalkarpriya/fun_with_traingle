@@ -2,10 +2,14 @@ const quizForm = document.querySelector('.quiz-form');
 const submitAnswer = document.querySelector('#sub-ans');
 const output = document.querySelector('#output');
 
-const correctAnswer = ['90°', 'right'];
+const correctAnswer = ['90°', 'right', '3', '60°'];
 
 submitAnswer.addEventListener('click', calculateScore);
 
+// function checkInputs()
+// {
+//     if()
+// }
 function calculateScore() {
     let score = 0;
     let index = 0;
