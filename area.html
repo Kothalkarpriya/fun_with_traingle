@@ -11,9 +11,8 @@
 
 <body>
     <div class="pagewrap">
-
         <nav>
-            <div id="div">
+            <div class="header">
                 Fun with Triangles</div>
             <ul class="list-style">
                 <li class="list"><a href="index.html">Is Triangle?</a></li>
@@ -23,18 +22,16 @@
             </ul>
         </nav>
         <main>
-
-
             <h1 class="heading">Check Area Of Triangle</h1>
             <h2 class="formula">Area Of a Triangle = 1/2(Base * Height)</h2>
             <div class="angle-container">
                 <div class="input-container">
                     <label>Base(in cm)</label>
-                    <input class="input" type="number" />
+                    <input class="input" type="number" min="1"/>
                 </div>
                 <div class="input-container">
                     <label>Height(in cm)</label>
-                    <input class="input" type="number" />
+                    <input class="input" type="number" min="1"/>
                 </div>
                 <button class="btn" id="btn">Check Area Of Triangle</button>
             </div>

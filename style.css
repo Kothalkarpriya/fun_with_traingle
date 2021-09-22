@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+
 :root {
     --primary-color: #0077b6;
     --second: #5a189a;
@@ -15,6 +18,8 @@ body {
     display: block;
     color: var(--text-color);
     background-color: var(--second);
+    font-family: 'Koh Santepheap',
+    cursive;
 }
 .pagewrap{
     display: flex;
@@ -113,6 +118,7 @@ h2 {
 .output {
     text-align: center;
     margin: 2rem 0;
+    font-size: 2rem;
     /* padding: 2rem; */
 }
 
