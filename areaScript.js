@@ -8,6 +8,11 @@ checkButton.addEventListener('click', ()=>{
         output.style.color = 'red';
         output.innerText = 'Please insert both the Base and Height';
     }
+    else if(inputs[0].value < 0 || inputs[1].value < 0 || inputs[2].value < 0)
+    {
+        output.style.color = 'red';
+        output.innerText = 'Please insert positive values';
+    }
     else{
         calculateArea();
     }

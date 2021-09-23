@@ -9,6 +9,10 @@ function checkInputs(){
         // alert('Please input');
         output.style.color = 'red';
         output.innerText = "Please insert both the values";
+    } else if (sides[0].value < 0 || sides[1].value < 0)
+    {
+        output.style.color = 'red';
+        output.innerText = "Please insert positive values";
     }
     else{
         calculateHypotenuse();

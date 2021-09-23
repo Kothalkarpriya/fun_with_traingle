@@ -5,7 +5,11 @@ buttonIsTraingle.addEventListener("click", ()=>{
     if(angleInput[0].value =='' || angleInput[1].value =='' || angleInput[2].value ==''){
         outPut.style.color = 'red';
         outPut.innerText = 'Please insert three angles correctly';
-    }else{
+    } else if (angleInput[0].value < 0 || angleInput[1].value < 0 || angleInput[2].value < 0){
+        outPut.style.color = 'red';
+        outPut.innerText = 'Please insert positive values';
+    }
+    else{
         isTraingle();
     }
 });
